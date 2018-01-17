@@ -45,4 +45,5 @@
         sep = " "
     }
 	```
-	Với mỗi vòng lặp for, range 
+	
+* Điều kiện trong Go
