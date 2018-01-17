@@ -47,3 +47,24 @@
 	```
 	
 * Điều kiện trong Go
+	
+	```
+	if condition {
+		//
+	} else if {
+		//
+	} else {
+		// 
+	}
+	```
+	Ví dụ:
+	
+	```
+	if n > 10 {
+		fmt.Println("2 chữ số")
+	} else if n == 10 {
+		fmt.Printlb("Nhỏ nhất có 2 chữ số")
+	} else {
+		
+	}
+	```
