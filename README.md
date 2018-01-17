@@ -1,2 +1,3 @@
 # Go Tutorial
-## Hello World Go
+## Biến trong Go
+Khai báo bằng từ khóa ``var``
