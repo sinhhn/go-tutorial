@@ -45,6 +45,13 @@
         sep = " "
     }
 	```
+	Trong câu lệnh ``for range`` với vòng lặp phía trên, ``arg`` là biến chạy trong mảng ``os.Args[1:]``. lặp theo một phần mảng với ``for range``:
+	
+	```
+	for _, arg := range os.Args[2:] {
+		//
+	}
+	```
 	
 * Điều kiện trong Go
 	

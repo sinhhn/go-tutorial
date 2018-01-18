@@ -12,4 +12,11 @@ func main() {
 		sep = " "
 	}
 	fmt.Println(s)
+	s = ""
+	// Add for range
+	for _, arg := range os.Args[2:] {
+		s += sep + arg
+		sep = " "
+	}
+	fmt.Println(s)
 }
